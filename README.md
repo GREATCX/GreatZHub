@@ -319,8 +319,13 @@ Section:NewButton("anti afk", "GreatZ So Gay", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
 end)
 
-local Tab = Window:NewTab("Misc")
-local Section = Tab:NewSection("Hot Scipts")
+local Section = Tab:NewSection("Advanced")
+
+Section:NewButton("Reach", "GreatZ So Gay", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/v85uKg67", true))()
+end)
+
+local Section = Tab:NewSection("Extra")
 
 Section:NewButton("Dex V4", "GreatZ So Gay", function()
 	loadstring(game:HttpGetAsync("https://pastebin.com/raw/fPP8bZ8Z"))()
@@ -8908,21 +8913,96 @@ Section:NewButton("Infinite Yield", "GreatZ So Gay", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
-local Tab = Window:NewTab("Teleport")
-local Section = Tab:NewSection("Teleport beware 267/268")
+local Tab = Window:NewTab("Free OP Scipts")
+local Section = Tab:NewSection("Blox Fruit") 
 
-Section:NewButton("Hospital", "GreatZ So Gay", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-694.791, 9.08201, -209.377)
+Section:NewButton("Hyper", "GreatZ So Gay", function()
+	pcall(function()
+		repeat wait() until game:IsLoaded()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"))()
+	end)
 end)
 
-Section:NewButton("Gas Station", "GreatZ So Gay", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-254.115, 15.8804, 122.422)
+Section:NewButton("Netna", "GreatZ So Gay", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/NinoGod/NetnaYay/8d21ce23346c500c93bb8b4a71f7791e4058a70b/startload.lua'))()
 end)
 
-Section:NewButton("Gun Shop", "GreatZ So Gay", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-832.485, 7.98493, -609.56)
+local Section = Tab:NewSection("King Legacy") 
+
+Section:NewButton("Hyper", "GreatZ So Gay", function()
+	pcall(function()
+		repeat wait() until game:IsLoaded()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"))()
+	end)
 end)
 
-Section:NewButton("Ufo", "GreatZ So Gay", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(526.085, 8.18758, 766.6826)
+local Section = Tab:NewSection("A One Piece Game") 
+
+Section:NewButton("Hyper", "GreatZ So Gay", function()
+	pcall(function()
+		repeat wait() until game:IsLoaded()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"))()
+	end)
+end)
+
+local Section = Tab:NewSection("Dahood") 
+
+Section:NewButton("Swagmode V2", "GreatZ So Gay", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+
+Section:NewButton("Swagmode Crash", "GreatZ So Gay", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/dhcrash_gen2/main/crash", true))()
+end)
+
+Section:NewButton("Ray X", "GreatZ So Gay", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+end)
+
+local Section = Tab:NewSection("Build A Boat") 
+
+Section:NewButton("Vynixius", "GreatZ So Gay", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/BABFT"))()
+end)
+
+local Section = Tab:NewSection("Clicker Simulator") 
+
+Section:NewButton("Mint Hub", "GreatZ So Gay", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TrustsenseDev/UnknownHub-V1/main/Loader.lua"))()
+end)
+
+local Section = Tab:NewSection("TIMBER") 
+
+Section:NewButton("Jack's Hub", "GreatZ So Gay", function()
+	loadstring(game:HttpGet"https://thedragonslayer2.github.io")()
+end)
+
+local Section = Tab:NewSection("Your Bizarre Adventure") 
+
+Section:NewButton("Kolgie", "GreatZ So Gay", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/kolgie/YBA-GUI/main/yba-gui-obfuscated.lua"))()
+end)
+
+local Section = Tab:NewSection("Ro-Ghoul") 
+
+Section:NewButton("JRL", "GreatZ So Gay", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/JRL-lav/Main/main/Ro-Ghoul"))()
+end)
+
+local Section = Tab:NewSection("Shopping Cart Simulator") 
+
+Section:NewButton("HamstaGang", "GreatZ So Gay", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Shopping%20Cart%20Simulator/main.lua", true))()
+end)
+
+local Section = Tab:NewSection("Sonic Speed Simulator") 
+
+Section:NewButton("Vellerius", "GreatZ So Gay", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt2625/pjv/main/Loader.lua"))()
+end)
+
+local Section = Tab:NewSection("Arsenal") 
+
+Section:NewButton("Owl Hub", "GreatZ So Gay", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
 end)

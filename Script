@@ -1,257 +1,170 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Anime Last Stand // Jirakit.Shop", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("DailyRewards"):WaitForChild("Claim"):InvokeServer()
+local args = {
+    [1] = "BlamTopSecretCodeWontWorkIfNotSubbed"
+}
 
---[[
-Name = <string> - The name of the UI.
-HidePremium = <bool> - Whether or not the user details shows Premium status or not.
-SaveConfig = <bool> - Toggles the config saving in the UI.
-ConfigFolder = <string> - The name of the folder where the configs are saved.
-IntroEnabled = <bool> - Whether or not to show the intro animation.
-IntroText = <string> - Text to show in the intro animation.
-IntroIcon = <string> - URL to the image you want to use in the intro animation.
-Icon = <string> - URL to the image you want displayed on the window.
-CloseCallback = <function> - Function to execute when the window is closed.
-]]
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "NeelsTV"
+}
 
-local Tab = Window:MakeTab({
-	Name = "Main",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "Sub2KingLuffy"
+}
 
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "GoalReached"
+}
 
-Tab:AddButton({
-	Name = "Redeem All Code",
-	Callback = function()
-      		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("DailyRewards"):WaitForChild("Claim"):InvokeServer()
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "TyFor1mVisitsPart1"
+}
 
-            local args = {
-                [1] = "BlamTopSecretCodeWontWorkIfNotSubbed"
-            }
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "TyFor1mVisitsPart2"
+}
 
-            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "YammoRework"
+}
 
-            local args = {
-                [1] = "NeelsTV"
-            }
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "Sub2Blamspot524k"
+}
 
-            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "Sub2BmGTormenter117onYT"
+}
 
-            local args = {
-                [1] = "Sub2KingLuffy"
-            }
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "Sub2CodeNex77k"
+}
 
-            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "RELEASE"
+}
 
-            local args = {
-                [1] = "GoalReached"
-            }
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "SorryForDelay"
+}
 
-            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "TyFor2kFav"
+}
 
-            local args = {
-                [1] = "TyFor1mVisitsPart1"
-            }
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "FinalDelay"
+}
 
-            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+	local args = {
+    [1] = "10",
+    [2] = "1"
+}
 
-            local args = {
-                [1] = "TyFor1mVisitsPart2"
-            }
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
+    local args = {
+    [1] = "10",
+    [2] = "1"
+}
 
-            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
+    local args = {
+    [1] = "10",
+    [2] = "1"
+}
 
-            local args = {
-                [1] = "YammoRework"
-            }
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
+    local args = {
+    [1] = "10",
+    [2] = "1"
+}
 
-            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
+    local args = {
+    [1] = "10",
+    [2] = "1"
+}
 
-            local args = {
-                [1] = "Sub2Blamspot524k"
-            }
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
+    local args = {
+    [1] = "10",
+    [2] = "1"
+}
 
-            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
+    local args = {
+    [1] = "10",
+    [2] = "1"
+}
 
-            local args = {
-                [1] = "Sub2BmGTormenter117onYT"
-            }
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
+    local args = {
+    [1] = "10",
+    [2] = "1"
+}
 
-            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
+    local args = {
+    [1] = "10",
+    [2] = "1"
+}
 
-            local args = {
-                [1] = "Sub2CodeNex77k"
-            }
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
+    local args = {
+    [1] = "10",
+    [2] = "1"
+}
 
-            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
+    local args = {
+    [1] = "10",
+    [2] = "1"
+}
 
-            local args = {
-                [1] = "RELEASE"
-            }
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
+    local args = {
+    [1] = "10",
+    [2] = "1"
+}
 
-            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
+    local args = {
+    [1] = "10",
+    [2] = "1"
+}
 
-            local args = {
-                [1] = "SorryForDelay"
-            }
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
+    local args = {
+    [1] = "10",
+    [2] = "1"
+}
 
-            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
+    local args = {
+    [1] = "10",
+    [2] = "1"
+}
 
-            local args = {
-                [1] = "TyFor2kFav"
-            }
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
+    local args = {
+    [1] = "10",
+    [2] = "1"
+}
 
-            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
-
-            local args = {
-                [1] = "FinalDelay"
-            }
-
-            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
-              	end    
-            })
-
-
-
-Tab:AddButton({
-	Name = "Summon 10 Units",
-	Callback = function()
-      		local args = {
-            [1] = "10",
-            [2] = "1"
-        }
-        
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
-            local args = {
-            [1] = "10",
-            [2] = "1"
-        }
-        
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
-
-            local args = {
-            [1] = "10",
-            [2] = "1"
-        }
-        
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
-
-            local args = {
-            [1] = "10",
-            [2] = "1"
-        }
-        
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
-
-            local args = {
-            [1] = "10",
-            [2] = "1"
-        }
-        
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
-
-            local args = {
-            [1] = "10",
-            [2] = "1"
-        }
-        
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
-
-            local args = {
-            [1] = "10",
-            [2] = "1"
-        }
-        
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
-
-            local args = {
-            [1] = "10",
-            [2] = "1"
-        }
-        
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
-
-            local args = {
-            [1] = "10",
-            [2] = "1"
-        }
-        
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
-
-            local args = {
-            [1] = "10",
-            [2] = "1"
-        }
-        
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
-
-            local args = {
-            [1] = "10",
-            [2] = "1"
-        }
-        
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
-
-            local args = {
-            [1] = "10",
-            [2] = "1"
-        }
-        
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
-
-            local args = {
-            [1] = "10",
-            [2] = "1"
-        }
-        
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
-
-            local args = {
-            [1] = "10",
-            [2] = "1"
-        }
-        
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
-
-            local args = {
-            [1] = "10",
-            [2] = "1"
-        }
-        
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
-
-            local args = {
-            [1] = "10",
-            [2] = "1"
-        }
-        
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Warp To Techniques",
-	Callback = function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-54.1198997, 316.738342, -672.985413, 0.0283486415, 1.07502105e-08, 0.999598086, 4.66341064e-08, 1, -1.2077078e-08, -0.999598086, 4.69577301e-08, 0.0283486415)
-  	end    
-})
-
-
-
-
-
-
-local Tab = Window:MakeTab({
-	Name = "Credit",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-	Name = "Link Discord : discord.gg/7etnNmtwBd"
-})
-
-local Section = Tab:AddSection({
-	Name = "Link Website : jirakit.shop"
-})
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
+   
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-54.1198997, 316.738342, -672.985413, 0.0283486415, 1.07502105e-08, 0.999598086, 4.66341064e-08, 1, -1.2077078e-08, -0.999598086, 4.69577301e-08, 0.0283486415)

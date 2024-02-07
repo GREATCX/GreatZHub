@@ -115,7 +115,7 @@ Tab:AddButton({
 
 
 Tab:AddButton({
-	Name = "Redeem All Code",
+	Name = "Summon 10 Units",
 	Callback = function()
       		local args = {
             [1] = "10",
@@ -124,6 +124,13 @@ Tab:AddButton({
         
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
 
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Warp To ",
+	Callback = function()
+		
   	end    
 })
 

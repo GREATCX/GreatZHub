@@ -130,7 +130,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Warp To ",
 	Callback = function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.new = CFrame.new(-54.1198997, 316.738342, -672.985413, 0.0283486415, 1.07502105e-08, 0.999598086, 4.66341064e-08, 1, -1.2077078e-08, -0.999598086, 4.69577301e-08, 0.0283486415)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-54.1198997, 316.738342, -672.985413, 0.0283486415, 1.07502105e-08, 0.999598086, 4.66341064e-08, 1, -1.2077078e-08, -0.999598086, 4.69577301e-08, 0.0283486415)
   	end    
 })
 

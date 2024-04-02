@@ -473,7 +473,7 @@ local Script = {
         Watermark = true,
         fpscap = 144,
         Type = "Main",
-        CheatName = "osiris"
+        CheatName = "jixl4x"
         --game:GetService("CoreGui").osiris.main.top.title
     }
 }
@@ -638,7 +638,7 @@ function createvisualizer()
     Visualizer:Destroy()
 end
 
-local Window = Library:CreateWindow("osiris", Vector2.new(492, 598), Enum.KeyCode.RightShift)
+local Window = Library:CreateWindow("jixl4z", Vector2.new(492, 598), Enum.KeyCode.RightShift)
 
 --// Tabs
 local Main = Window:CreateTab("Main")
